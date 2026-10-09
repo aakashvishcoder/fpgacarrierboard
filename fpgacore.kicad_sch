@@ -9980,6 +9980,10 @@
 		(uuid "29efbfaa-84d8-416e-9813-98dd47c2d025")
 	)
 	(no_connect
+		(at 269.24 318.77)
+		(uuid "2a406ddd-706d-4658-9828-81f7d00530a9")
+	)
+	(no_connect
 		(at 554.99 140.97)
 		(uuid "2ace81a1-1a14-46cd-b0c8-256bec1021e0")
 	)
@@ -10042,6 +10046,10 @@
 	(no_connect
 		(at 453.39 100.33)
 		(uuid "4028a669-7e78-4029-82d2-ca724471d587")
+	)
+	(no_connect
+		(at 269.24 311.15)
+		(uuid "4052b4e3-b42a-4d2e-86d5-9088d8d0a546")
 	)
 	(no_connect
 		(at 453.39 118.11)
@@ -10166,6 +10174,10 @@
 	(no_connect
 		(at 453.39 74.93)
 		(uuid "5f8ef6b1-fc73-4893-a9c7-66cdcbe3a29a")
+	)
+	(no_connect
+		(at 269.24 308.61)
+		(uuid "60844cf4-db46-45e9-9c32-6ec3a33098ff")
 	)
 	(no_connect
 		(at 433.07 247.65)
@@ -10318,6 +10330,10 @@
 	(no_connect
 		(at 554.99 113.03)
 		(uuid "907c4759-9f1a-4cc0-8f22-cb4a30fd5809")
+	)
+	(no_connect
+		(at 269.24 313.69)
+		(uuid "92b96b4b-d6f1-4414-8d35-7d324eab01dd")
 	)
 	(no_connect
 		(at 453.39 82.55)
@@ -10614,6 +10630,10 @@
 	(no_connect
 		(at 554.99 97.79)
 		(uuid "e56e618e-5296-414f-b2f9-fbd870e5837c")
+	)
+	(no_connect
+		(at 269.24 306.07)
+		(uuid "e75c4868-3b9d-4d07-aefd-6291d9e873b0")
 	)
 	(no_connect
 		(at 453.39 151.13)
@@ -12865,30 +12885,6 @@
 			)
 		)
 	)
-	(global_label "WIFI_INT"
-		(shape input)
-		(at 269.24 318.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "272668ca-309b-4672-a38c-23696a6f8eca")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 258.6347 318.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "3V3"
 		(shape input)
 		(at 128.27 152.4 90)
@@ -12982,30 +12978,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "WIFI_SCLK"
-		(shape output)
-		(at 269.24 308.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "312b2072-21d9-4793-bda4-f46d156eadd0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.76 308.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -14137,30 +14109,6 @@
 			)
 		)
 	)
-	(global_label "WIFI_MOSI"
-		(shape output)
-		(at 269.24 306.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1cf7214-31b3-4c11-9ef1-27d89523ceb5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.9414 306.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "HDR_15"
 		(shape bidirectional)
 		(at 269.24 298.45 180)
@@ -14329,30 +14277,6 @@
 			)
 		)
 	)
-	(global_label "WIFI_MISO"
-		(shape input)
-		(at 269.24 313.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c12ba3ca-2c48-45b2-8938-4921de518238")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 256.9414 313.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "CFG_CCLK"
 		(shape bidirectional)
 		(at 140.97 190.5 0)
@@ -14398,30 +14322,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "WIFI_CS"
-		(shape output)
-		(at 269.24 311.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6e2c36f-7fce-456d-81a1-53fcc58a3b14")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.0581 311.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -16287,6 +16187,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 241.3 38.1 0)
 			(hide yes)
@@ -16300,17 +16211,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 241.3 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17878,6 +17778,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C19330"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 45.72 57.15 0)
 			(hide yes)
@@ -17891,17 +17802,6 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 45.72 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C19330"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17971,6 +17871,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 228.6 38.1 0)
 			(hide yes)
@@ -17984,17 +17895,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 228.6 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19721,6 +19621,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 193.04 39.37 0)
 			(hide yes)
@@ -19734,17 +19645,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 193.04 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19814,6 +19714,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C107368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 167.64 39.37 0)
 			(hide yes)
@@ -19827,17 +19738,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 167.64 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C107368"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20063,6 +19963,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C2906981"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 151.13 116.84 0)
 			(hide yes)
@@ -20076,17 +19987,6 @@
 		)
 		(property "Description" "Resistor"
 			(at 151.13 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C2906981"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21576,6 +21476,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C14663"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 180.34 39.37 0)
 			(hide yes)
@@ -21589,17 +21500,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 180.34 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C14663"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23243,6 +23143,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C19330"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 88.9 57.15 0)
 			(hide yes)
@@ -23256,17 +23167,6 @@
 		)
 		(property "Description" "Ferrite bead"
 			(at 88.9 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C19330"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24834,6 +24734,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" "C107368"
+			(at 0 0 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Datasheet" ""
 			(at 215.9 38.1 0)
 			(hide yes)
@@ -24847,17 +24758,6 @@
 		)
 		(property "Description" "Unpolarized capacitor"
 			(at 215.9 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C107368"
-			(at 0 0 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

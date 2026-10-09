@@ -144,52 +144,6 @@
 		)
 	)
 	(sheet
-		(at 186.69 69.85)
-		(size 49.53 25.4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "4341b319-b701-4b30-a237-4233f095de4b")
-		(property "Sheetname" "wifi"
-			(at 186.69 69.1384 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "wifi.kicad_sch"
-			(at 186.69 95.8346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "fpgacarrierboard"
-				(path "/6b01a127-cba5-44fa-aab9-96b6fa67b92e"
-					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 90.17 124.46)
 		(size 71.12 31.75)
 		(exclude_from_sim no)
