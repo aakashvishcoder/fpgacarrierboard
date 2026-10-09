@@ -42,8 +42,11 @@ layout has not started yet.
 ## Assembly split
 
 JLC handles placement of ICs, the FPGA BGA, QFN parts, and decoupling
-capacitors. Connectors, resistors, LEDs, switches, and test points are
-hand-soldered.
+capacitors. Connectors, resistors, LEDs, the zener, the fuse, and test
+points are hand-soldered as through-hole parts (not SMD) so they can be
+assembled without reflow equipment. The 10µF/22µF bulk filter caps are
+through-hole electrolytics; everything else hand-soldered is through-hole
+ceramic, resistor, or LED.
 
 ## Generating the BOM
 
