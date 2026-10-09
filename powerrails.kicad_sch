@@ -2915,6 +2915,126 @@
 		)
 		(uuid "fee40364-638f-40e0-93ea-406bbe85a2d9")
 	)
+	(label "FB_3V3"
+		(at 257.81 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ed74b54-9cf1-4a43-9712-cede15ca33f5")
+	)
+	(label "SS_1V0"
+		(at 25.4 71.12 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d6b59f6-ed73-4eb0-8153-44ef77655b2e")
+	)
+	(label "FB_1V2"
+		(at 194.31 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "418f6f43-80d3-4ce6-b3f1-1c8328f8b50b")
+	)
+	(label "FB_1V8"
+		(at 129.54 74.93 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "46bb206f-9fa7-464d-8dd6-9b18bb834b96")
+	)
+	(label "SW_1V0"
+		(at 57.15 63.5 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53c6ed03-1206-42e3-86bb-a77100cd239b")
+	)
+	(label "FB_1V0"
+		(at 62.23 73.66 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6188905b-eb12-4f58-8f28-c3a50f1bd58a")
+	)
+	(label "SS_1V8"
+		(at 91.44 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8a61178b-683f-43f6-81c1-cb855fb8504b")
+	)
+	(label "SW_1V2"
+		(at 187.96 62.23 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cb82f616-c3c5-47dd-8c86-be86382fe9a6")
+	)
+	(label "SW_3V3"
+		(at 251.46 60.96 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dd8bb1fe-0f77-4166-990a-3b55c4077be5")
+	)
+	(label "SW_1V8"
+		(at 124.46 63.5 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e932afa8-5ed2-43a8-8799-44c20da97193")
+	)
+	(label "SS_1V2"
+		(at 154.94 73.66 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb2eaa11-0972-44fa-ba57-aa6273906022")
+	)
+	(label "SS_3V3"
+		(at 218.44 72.39 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff81f5db-337a-4dc1-a581-0e09bcdd2782")
+	)
 	(global_label "1V0"
 		(shape passive)
 		(at 66.04 58.42 90)

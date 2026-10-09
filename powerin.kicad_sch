@@ -2170,6 +2170,26 @@
 		)
 		(uuid "f58403ad-0945-4efc-b6f2-a4e85259a892")
 	)
+	(label "USB_CC2"
+		(at 132.08 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41981364-af35-4092-85a7-77195218c0f8")
+	)
+	(label "USB_CC1"
+		(at 132.08 30.48 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "71268c2d-1f5f-4b2d-b436-15e8b1f3f43c")
+	)
 	(global_label "5V_FUSED"
 		(shape passive)
 		(at 48.26 29.21 0)
@@ -2268,7 +2288,7 @@
 	)
 	(global_label "5V_LC"
 		(shape passive)
-		(at 219.71 38.1 180)
+		(at 214.63 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2278,7 +2298,7 @@
 		)
 		(uuid "b8b25867-6c7a-4289-96cd-a53cc90d6448")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.2723 38.1 0)
+			(at 207.1923 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4078,7 +4098,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 219.71 38.1 270)
+		(at 214.63 38.1 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4089,7 +4109,7 @@
 		(fields_autoplaced yes)
 		(uuid "dab054da-f531-474d-933b-c97a1c9e4201")
 		(property "Reference" "TP5"
-			(at 224.79 36.8299 90)
+			(at 219.71 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4099,8 +4119,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 224.79 39.3699 90)
+		(property "Value" "5V_LC_TP"
+			(at 219.71 39.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4111,7 +4131,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.5mm_Drill0.7mm"
-			(at 219.71 43.18 0)
+			(at 214.63 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +4142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 43.18 0)
+			(at 214.63 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4133,7 +4153,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 219.71 38.1 0)
+			(at 214.63 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

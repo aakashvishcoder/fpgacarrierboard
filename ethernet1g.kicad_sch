@@ -7073,6 +7073,16 @@
 		)
 		(uuid "ff4fee88-9b81-477c-b97f-97cfd2914ad6")
 	)
+	(label "PHY_RSET"
+		(at 100.33 128.27 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90b6f118-ed79-4fac-8471-249cd177bf16")
+	)
 	(global_label "PHY_AVDD33"
 		(shape passive)
 		(at 388.62 118.11 90)

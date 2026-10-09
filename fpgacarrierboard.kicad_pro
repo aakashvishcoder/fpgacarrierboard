@@ -599,7 +599,7 @@
       },
       {
         "netclass": "HS_DIFF",
-        "pattern": "*Net-(OSC1-OUT?)"
+        "pattern": "*REFCLK_OSC_?"
       },
       {
         "netclass": "RGMII",
@@ -655,7 +655,7 @@
       },
       {
         "netclass": "Power",
-        "pattern": "*Net-(L?-Pad2)"
+        "pattern": "*SW_*"
       }
     ]
   },
@@ -836,7 +836,7 @@
         "uuid": "6b01a127-cba5-44fa-aab9-96b6fa67b92e"
       }
     ],
-    "used_designators": "D1-6,#PWR1-86,Y1-2,TP1-5,F1,U1-8,SW1-3,C1-114,FB1-7,OSC1,#FLG1-13,BT1,R1-52,JP1-2,J1-9,USB1,L1-5",
+    "used_designators": "D1-6,#PWR1-86,Y1-2,TP1-5,F1,U1-8,SW1-3,FB1-7,C1-114,OSC1,#FLG1-13,BT1,R1-52,JP1-2,J1-9,USB1,L1-5",
     "variants": []
   },
   "sheets": [
@@ -879,10 +879,6 @@
     [
       "46b351fc-c12d-4f31-86d4-6c76fe5c4a31",
       "IO_Breakout"
-    ],
-    [
-      "4341b319-b701-4b30-a237-4233f095de4b",
-      "wifi"
     ]
   ],
   "text_variables": {},

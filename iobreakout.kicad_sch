@@ -3661,25 +3661,23 @@
 		(fields_autoplaced yes)
 		(uuid "c1d358c0-74fc-4faa-97ad-de832cb0ec87")
 		(property "Reference" "R51"
-			(at 86.3599 45.72 0)
+			(at 87.63 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "4.7k"
-			(at 88.8999 45.72 0)
+		(property "Value" "1k"
+			(at 87.63 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
