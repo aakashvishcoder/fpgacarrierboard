@@ -118,10 +118,11 @@
 			(layer "B.SilkS"
 				(type "Bottom Silk Screen")
 			)
-			(copper_finish "None")
+			(copper_finish "ENIG")
 			(dielectric_constraints yes)
 		)
 		(pad_to_mask_clearance 0)
+		(solder_mask_min_width 0.1)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
 			(front yes)
@@ -137,6 +138,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -31498,7 +31500,7 @@
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a313335c-cb5e-46d1-8752-707560c1fb21")
-		(at 273.5 37)
+		(at 273 37)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J6"
@@ -38464,7 +38466,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b37e1a99-de3a-4c8d-adf3-97887efda3e5")
-		(at 236.84 34.5)
+		(at 236.84 35)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R7"
