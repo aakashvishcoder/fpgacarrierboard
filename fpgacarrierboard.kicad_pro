@@ -664,7 +664,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "gerbers/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -837,7 +837,7 @@
         "uuid": "6b01a127-cba5-44fa-aab9-96b6fa67b92e"
       }
     ],
-    "used_designators": "D1-6,#PWR1-86,Y1-2,TP1-5,F1,U1-8,SW1-3,FB1-7,C1-114,OSC1,#FLG1-13,BT1,R1-52,JP1-2,J1-9,USB1,L1-5",
+    "used_designators": "D1-6,#PWR1-86,Y1-2,TP1-5,F1,U1-8,SW1-3,C1-114,FB1-7,OSC1,#FLG1-13,BT1,R1-52,JP1-2,J1-9,USB1,L1-5",
     "variants": []
   },
   "sheets": [
