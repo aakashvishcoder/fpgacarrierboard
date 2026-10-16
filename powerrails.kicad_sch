@@ -2925,16 +2925,6 @@
 		)
 		(uuid "0ed74b54-9cf1-4a43-9712-cede15ca33f5")
 	)
-	(label "SS_1V0"
-		(at 25.4 71.12 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2d6b59f6-ed73-4eb0-8153-44ef77655b2e")
-	)
 	(label "FB_1V2"
 		(at 194.31 73.66 270)
 		(effects
@@ -2954,26 +2944,6 @@
 			(justify right bottom)
 		)
 		(uuid "46bb206f-9fa7-464d-8dd6-9b18bb834b96")
-	)
-	(label "SW_1V0"
-		(at 57.15 63.5 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "53c6ed03-1206-42e3-86bb-a77100cd239b")
-	)
-	(label "FB_1V0"
-		(at 62.23 73.66 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6188905b-eb12-4f58-8f28-c3a50f1bd58a")
 	)
 	(label "SS_1V8"
 		(at 91.44 72.39 90)
